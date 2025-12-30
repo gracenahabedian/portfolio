@@ -8,13 +8,16 @@ export default function Skills() {
 
   return (
     !hamburgerActive && (
-      <section id='skills' className='pt-37.5 pr-40 pl-40'>
+      <section
+        id='skills'
+        className='pr-[25.5%] pl-[25.5%] p-30 bg-[#221A2D] max-xl-1:pr-[23%] max-xl-1:pl-[23%] transition-all max-vl-1:pl-[16%] max-vl-1:pr-[16%] max-lg-1:pl-[10%] max-lg-1:pr-[10%]'
+      >
         <div className='flex flex-row gap-5 justify-center items-center mb-10'>
           <h1 className='text-white text-[40px] amaranth-regular'>Skills</h1>
         </div>
 
         <div className='flex flex-col gap-10 -z-100'>
-          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104'>
+          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104 max-xs-4:p-6'>
             <h1 className='text-white amaranth-regular text-3xl text-center mb-8'>Languages</h1>
             <SkillsGrid>
               <div className='flip-card'>
@@ -101,7 +104,7 @@ export default function Skills() {
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Assembly</h1>
-                    <h1 className='actor-regular text-[15px]'>June 2025 onwards</h1>
+                    <h1 className='actor-regular text-[15px]'>June 2024 onwards</h1>
                   </div>
                 </div>
               </div>
@@ -129,7 +132,7 @@ export default function Skills() {
               </div>
             </SkillsGrid>
           </div>
-          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104'>
+          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104 max-xs-4:p-6'>
             <h1 className='text-white amaranth-regular text-3xl text-center mb-8'>
               Frameworks & Libraries
             </h1>
@@ -235,7 +238,7 @@ export default function Skills() {
               </div>
             </SkillsGrid>
           </div>
-          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104'>
+          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104 max-xs-4:p-6'>
             <h1 className='text-white amaranth-regular text-3xl text-center mb-8'>Softwares</h1>
             <SkillsGrid>
               <div className='flip-card'>

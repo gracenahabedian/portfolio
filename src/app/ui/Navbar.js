@@ -2,17 +2,18 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { HamburgerContext } from './HamburgerContext';
 import LiquidGlass from 'liquid-glass-react';
+import { WindowContext } from './WindowContext';
 
 export default function Navbar() {
-  const [windowWidth, setWindowWidth] = useState(-1);
   const [hashLocation, setHashLocation] = useState('');
   const { hamburgerActive, setHamburgerActive } = useContext(HamburgerContext);
+  const { windowSize, setWindowSize } = useContext(WindowContext);
 
   useEffect(() => {
-    setWindowWidth(window.innerWidth);
+    setWindowSize(window.innerWidth);
 
     window.addEventListener('resize', () => {
-      setWindowWidth(window.innerWidth);
+      setWindowSize(window.innerWidth);
     });
 
     window.addEventListener('hashchange', () => {
@@ -99,7 +100,7 @@ export default function Navbar() {
         </div>
       )}
 
-      {windowWidth != -1 && windowWidth <= 760 && (
+      {windowSize != -1 && windowSize <= 760 && (
         <button
           className='backdrop-blur-md w-16 h-16 transition-all flex justify-center items-center ml-10 hover:cursor-pointer fixed top-9.5 bg-[#392d4952] rounded-full'
           onClick={() => {
@@ -110,7 +111,7 @@ export default function Navbar() {
         </button>
       )}
 
-      {windowWidth != -1 && windowWidth > 760 && (
+      {windowSize != -1 && windowSize > 760 && (
         <div className='right-[24%] left-[24%] flex justify-center items-center transition-all fixed top-9.5 z-100'>
           <div className='h-18 bg-[#392d4952] rounded-full drop-shadow-xl/25 backdrop-blur-md text-white font-sans text-xl flex gap-10 px-10 justify-center items-center w-200 transition-all'>
             <a

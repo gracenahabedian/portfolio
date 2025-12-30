@@ -7,14 +7,17 @@ export default function About() {
 
   return (
     !hamburgerActive && (
-      <section id='about' className='pt-37.5 pr-40 pl-40'>
+      <section
+        id='about'
+        className='pr-[25.5%] pl-[25.5%] p-30 bg-[#221A2D] max-xl-1:pr-[23%] max-xl-1:pl-[23%] transition-all max-vl-1:pl-[16%] max-vl-1:pr-[16%] max-lg-1:pl-[10%] max-lg-1:pr-[10%]'
+      >
         <div className='flex flex-row gap-5 justify-center items-center mb-10'>
           <img src='/google-docs-2.png' className='w-10 h-10' />
           <h1 className='text-white text-[40px] amaranth-regular'>
             About <span className='text-[#6D5286]'>Me</span>
           </h1>
         </div>
-        <div className='flex flex-row gap-10'>
+        <div className='flex flex-row gap-20 items-center max-3xl:flex-col-reverse'>
           <div className='flex flex-col gap-10 justify-center text-white text-xl actor-regular'>
             <div className='flex flex-col gap-4'>
               <p className='leading-10'>
@@ -24,9 +27,7 @@ export default function About() {
               <p className='leading-10'>
                 I have a strong ambition for software engineering and programming. I particularly
                 enjoy working on front-end web development projects. I am extremely determined,
-                conscientious, hard working and methodical. During any time off I enjoy working on
-                coding projects, playing video games and crocheting. My resume can be viewed by
-                downloading it here.{' '}
+                conscientious, hard working and methodical.
               </p>
 
               <p className='leading-10'>
@@ -49,9 +50,10 @@ export default function About() {
               </div>
             </div>
           </div>
+
           <img
             src='/temporary-profile.jpg'
-            className='rounded-xl shadow-xl object-cover w-100 h-100'
+            className='rounded-xl shadow-xl object-cover w-80 h-80'
           />
         </div>
       </section>

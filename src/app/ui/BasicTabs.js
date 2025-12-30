@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
+import { createTheme } from '@mui/system';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;

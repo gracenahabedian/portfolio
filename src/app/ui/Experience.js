@@ -9,7 +9,7 @@ export default function Experience() {
     !hamburgerActive && (
       <section
         id='experience'
-        className='pr-17.5 pl-17.5 p-30 flex justify-center items-center flex-col'
+        className='pr-[25.5%] pl-[25.5%] p-30 flex justify-center items-center flex-col max-xl-1:pr-[23%] max-xl-1:pl-[23%] transition-all max-vl-1:pl-[16%] max-vl-1:pr-[16%] max-lg-1:pl-[10%] max-lg-1:pr-[10%]'
       >
         <div className='flex flex-row gap-5 justify-center items-center mb-10'>
           <h1 className='text-white text-[40px] amaranth-regular'>Experience</h1>

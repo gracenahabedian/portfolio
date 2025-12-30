@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import NavLayout from './ui/NavLayout';
 import { HamburgerContextProvider } from './ui/HamburgerContext';
+import { WindowContextProvider } from './ui/WindowContext';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -31,9 +32,11 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className='bg-[#1F1529] h-full w-full flex-col flex relative'>
-        <HamburgerContextProvider>
-          <NavLayout>{children}</NavLayout>
-        </HamburgerContextProvider>
+        <WindowContextProvider>
+          <HamburgerContextProvider>
+            <NavLayout>{children}</NavLayout>
+          </HamburgerContextProvider>
+        </WindowContextProvider>
       </body>
     </html>
   );

@@ -7,15 +7,30 @@
 
 @theme {
   /* CUSTOM */
+
+  --breakpoint-xs-4: 22.188rem; /* 355px */
+  --breakpoint-xs-3: 25.1875rem; /* 403px */
+  --breakpoint-xs-2: 26.563rem; /* 425px */
   --breakpoint-xs: 36rem; /* 576px */
 
   /* DEFAULT */
   --breakpoint-sm: 40rem; /* 640px */
+  --breakpoint-sm-5: 32.375rem; /* 518px */
+  --breakpoint-sm-4: 34rem; /* 544px */
+  --breakpoint-sm-3: 36.563rem; /* 585px */
+  --breakpoint-sm-2: 39rem; /* 625px */
+  --breakpoint-sm-1: 44.2rem; /* 707px */
   --breakpoint-md: 48rem; /* 768px */
+  --breakpoint-md-2: 50rem; /* 786px */
+  --breakpoint-md-1: 52rem; /* 825px */
+  --breakpoint-lg-1: 61rem; /* 970px */
   --breakpoint-lg: 64rem; /* 1024px */
   --breakpoint-vl: 70rem; /* 1120px */
+  --breakpoint-vl-1: 76rem; /* 1215 */
   --breakpoint-xl: 80rem; /* 1280px */
+  --breakpoint-xl-1: 84rem; /* 1340px */
   --breakpoint-2xl: 96rem; /* 1536px */
+  --breakpoint-3xl: 106.75rem;
 }
 
 @theme inline {
@@ -116,4 +131,19 @@ taken from geeks for geeks
   transform: rotateY(180deg);
   border: 1px solid #fff;
   border-radius: 15px;
+}
+
+.tab-animation {
+  transform-origin: bottom;
+  transform: scaleY(1);
+  transition: transform 300ms ease;
+}
+
+.tab-animation:hover {
+  transform: scaleY(1.25);
+  cursor: pointer;
+}
+
+.tab-animation:hover > * {
+  transform: scaleY(0.8);
 }
