@@ -8,12 +8,18 @@
 @theme {
   /* CUSTOM */
 
+  --breakpoint-xs-8: 25.25rem; /* 404px */
+  --breakpoint-xs-7: 24.438rem; /* 391px */
+  --breakpoint-xs-6: 28rem; /* 432px */
+  --breakpoint-xs-5: 24rem; /* 384px */
   --breakpoint-xs-4: 22.188rem; /* 355px */
   --breakpoint-xs-3: 25.1875rem; /* 403px */
   --breakpoint-xs-2: 26.563rem; /* 425px */
+  --breakpoint-xs-1: 29.0625rem; /* 465px */
   --breakpoint-xs: 36rem; /* 576px */
 
   /* DEFAULT */
+  --breakpoint-sm-6: 43.375rem; /* 694px */
   --breakpoint-sm: 40rem; /* 640px */
   --breakpoint-sm-5: 32.375rem; /* 518px */
   --breakpoint-sm-4: 34rem; /* 544px */

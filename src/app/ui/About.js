@@ -12,13 +12,13 @@ export default function About() {
         className='pr-[25.5%] pl-[25.5%] p-30 bg-[#221A2D] max-xl-1:pr-[23%] max-xl-1:pl-[23%] transition-all max-vl-1:pl-[16%] max-vl-1:pr-[16%] max-lg-1:pl-[10%] max-lg-1:pr-[10%]'
       >
         <div className='flex flex-row gap-5 justify-center items-center mb-10'>
-          <img src='/google-docs-2.png' className='w-10 h-10' />
+          {/* <img src='/google-docs-2.png' className='w-10 h-10' /> */}
           <h1 className='text-white text-[40px] amaranth-regular'>
             About <span className='text-[#6D5286]'>Me</span>
           </h1>
         </div>
         <div className='flex flex-row gap-20 items-center max-3xl:flex-col-reverse'>
-          <div className='flex flex-col gap-10 justify-center text-white text-xl actor-regular'>
+          <div className='flex flex-col gap-10 justify-center text-white text-xl actor-regular max-xs-6:text-[18px]'>
             <div className='flex flex-col gap-4'>
               <p className='leading-10'>
                 I am currently pursuing a bachelor of computer science at the University of New
@@ -41,11 +41,11 @@ export default function About() {
               </p>
             </div>
 
-            <div className='flex flex-row gap-4'>
-              <div className='border border-[#4E3B6A] bg-[#3B2E52] rounded-3xl text-[15px] p-2 font-medium transition delay-150 duration-300 ease-in-out hover:scale-110 hover:bg-[#4E3B6A]'>
+            <div className='flex flex-row gap-4 flex-wrap'>
+              <div className='border border-[#4E3B6A] bg-[#3B2E52] rounded-3xl text-[15px] max-xs-8:text-[13px] p-2 font-medium transition delay-150 duration-300 ease-in-out hover:scale-110 hover:bg-[#4E3B6A]'>
                 Comp Sci @ UNSW
               </div>
-              <div className='border border-[#4E3B6A] bg-[#3B2E52] rounded-3xl text-[15px] p-2 font-medium transition delay-150 duration-300 ease-in-out hover:scale-110 hover:bg-[#4E3B6A]'>
+              <div className='border border-[#4E3B6A] bg-[#3B2E52] rounded-3xl text-[15px] max-xs-8:text-[13px] p-2 font-medium transition delay-150 duration-300 ease-in-out hover:scale-110 hover:bg-[#4E3B6A]'>
                 Frontend Development
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function About() {
 
           <img
             src='/temporary-profile.jpg'
-            className='rounded-xl shadow-xl object-cover w-80 h-80'
+            className='rounded-xl shadow-xl object-cover w-80 h-80 max-xs-6:w-full max-xs-6:h-full'
           />
         </div>
       </section>

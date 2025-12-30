@@ -29,20 +29,20 @@ export default function FramerMotionCarousel({ itemData }) {
   }, [index, x]);
 
   return (
-    <div className='w-[500px] max-sm:w-full drop-shadow-xl'>
+    <div className='w-[500px] max-sm:w-full drop-shadow-xl max-md-1:w-[400px] max-sm-6:w-[300px]'>
       <div className='flex flex-col gap-3'>
         <div className='relative overflow-hidden rounded-3xl' ref={containerRef}>
           <motion.div className='flex' style={{ x }}>
             {itemData.map((item, idx) => (
               <div
                 key={idx}
-                className='shrink-0 w-full h-full bg-[#433358] pl-20 pr-20 pt-3 pb-3 flex items-center justify-between'
+                className='shrink-0 w-full h-full bg-[#433358] pl-20 pr-20 pt-3 pb-3 flex items-center justify-between max-sm-6:pl-18 max-sm-6:pr-18 max-xs-1:pl-16 max-xs-1:pr-16 max-xs-5:flex-col'
               >
                 <div>
-                  <p className='font-medium text-xl'>{item[0]}</p>
-                  <p className='font-light'>{item[1]}</p>
+                  <p className='font-medium text-xl max-xs-1:text-lg max-xs-2:text-md'>{item[0]}</p>
+                  <p className='font-light max-md-1:text-[11px] max-sm-6:hidden'>{item[1]}</p>
                 </div>
-                <p className='font-medium text-2xl'>{item[2]}</p>
+                <p className='font-medium text-2xl max-xs-1:text-xl max-xs-2:text-lg'>{item[2]}</p>
               </div>
             ))}
           </motion.div>
