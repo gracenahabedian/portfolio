@@ -7,7 +7,11 @@
 
 @theme {
   /* CUSTOM */
-
+  --breakpoint-xs-13: 23.063rem; /* 369px */
+  --breakpoint-xs-12: 24.875rem; /* 398px */
+  --breakpoint-xs-11: 28.5rem; /* 456px */
+  --breakpoint-xs-10: 30.625rem; /* 490px */
+  --breakpoint-xs-9: 33.125rem; /* 530px */
   --breakpoint-xs-8: 25.25rem; /* 404px */
   --breakpoint-xs-7: 24.438rem; /* 391px */
   --breakpoint-xs-6: 28rem; /* 432px */
@@ -17,8 +21,7 @@
   --breakpoint-xs-2: 26.563rem; /* 425px */
   --breakpoint-xs-1: 29.0625rem; /* 465px */
   --breakpoint-xs: 36rem; /* 576px */
-
-  /* DEFAULT */
+  --breakpoint-sm-7: 43rem; /* 688px */
   --breakpoint-sm-6: 43.375rem; /* 694px */
   --breakpoint-sm: 40rem; /* 640px */
   --breakpoint-sm-5: 32.375rem; /* 518px */
@@ -27,16 +30,21 @@
   --breakpoint-sm-2: 39rem; /* 625px */
   --breakpoint-sm-1: 44.2rem; /* 707px */
   --breakpoint-md: 48rem; /* 768px */
+  --breakpoint-md-3: 54.75rem; /* 876px */
   --breakpoint-md-2: 50rem; /* 786px */
   --breakpoint-md-1: 52rem; /* 825px */
+  --breakpoint-lg-3: 58.75rem; /* 940px */
   --breakpoint-lg-1: 61rem; /* 970px */
   --breakpoint-lg: 64rem; /* 1024px */
+  --breakpoint-lg-2: 67.5rem; /* 1080px */
   --breakpoint-vl: 70rem; /* 1120px */
+  --breakpoint-vl-2: 72.5rem; /* 1160px */
   --breakpoint-vl-1: 76rem; /* 1215 */
   --breakpoint-xl: 80rem; /* 1280px */
   --breakpoint-xl-1: 84rem; /* 1340px */
   --breakpoint-2xl: 96rem; /* 1536px */
   --breakpoint-3xl: 106.75rem;
+  --breakpoint-4xl: 123.125rem; /* 1970px */
 }
 
 @theme inline {
@@ -152,4 +160,93 @@ taken from geeks for geeks
 
 .tab-animation:hover > * {
   transform: scaleY(0.8);
+}
+
+.jetbrains-mono-heading-medium {
+  font-family: 'JetBrains Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.jetbrains-mono-heading-normal {
+  font-family: 'JetBrains Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.led-light-text {
+  color: #f3e0fa;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 5px 40px #f3e0fa, 0px 5px 40px #f3e0fa,
+    0px 5px 40px #f3e0fa;
+}
+
+.border-led-light {
+  color: #f3e0fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 5px 40px #f3e0fa;
+}
+
+/*
+CSS tricks used to make triangles
+*/
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.blue-arrow-up {
+  border-bottom: 20px solid #fff5b3;
+}
+
+.blue-arrow-down {
+  border-top: 20px solid #ffeb69;
+}
+
+.magenta-arrow-up {
+  border-bottom: 20px solid #b48aee;
+}
+
+.magenta-arrow-down {
+  border-top: 20px solid #8768b2;
+}
+
+.pink-arrow-up {
+  border-bottom: 20px solid #fae0fa;
+}
+
+.pink-arrow-down {
+  border-top: 20px solid #e4bee4;
+}
+
+.light-blue-arrow-up {
+  border-bottom: 20px solid #e0e3fa;
+}
+
+.light-blue-arrow-down {
+  border-top: 20px solid #b0b4d9;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.led-light-arrow-up {
+  filter: drop-shadow(0px 2px 8px #778194f5);
+}
+
+.led-light-arrow-down {
+  filter: drop-shadow(0px 2px 8px #778194f5);
+}
+
+.neonderthaw-regular {
+  font-family: 'Neonderthaw', cursive;
+  font-weight: 400;
+  font-style: normal;
 }

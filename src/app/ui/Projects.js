@@ -9,7 +9,7 @@ export default function Projects() {
   const [background, setBackground] = useState('#2D233C');
 
   const [tags, setTags] = useState(['Next.js', 'HTML', 'CSS', 'JavaScript', 'Tailwind']);
-  const [image, setImage] = useState('');
+  const [image, setImage] = useState('/portfolio.png');
   const [description, setDescription] = useState('This portfolio website.');
   const { windowSize, setWindowSize } = useContext(WindowContext);
 
@@ -28,7 +28,7 @@ export default function Projects() {
             onClick={() => {
               setBackground('#2D233C');
               setTags(['Next.js', 'HTML', 'CSS', 'JavaScript', 'Tailwind']);
-              setImage('');
+              setImage('/portfolio.png');
               setDescription('This portfolio website.');
             }}
           >
