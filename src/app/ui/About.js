@@ -52,7 +52,7 @@ export default function About() {
           </div>
 
           <img
-            src='/temporary-profile.jpg'
+            src='/Grace.jpeg'
             className='rounded-xl shadow-xl object-cover w-80 h-80 max-xs-6:w-full max-xs-6:h-full'
           />
         </div>
