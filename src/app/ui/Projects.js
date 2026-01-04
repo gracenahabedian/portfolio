@@ -62,7 +62,7 @@ export default function Projects() {
               setTags(['HTML', 'CSS', 'JavaScript', 'Bootstrap']);
               setImage('/Slackr-2.png');
               setDescription(
-                'A multi user messaging application where users can create and join different channels, delete, pin, edit or react to messages, recieve notifications, edit channel details and edit their profiles.'
+                'A multi user messaging application where users can create and join different channels, delete, pin, edit or react to messages, receive notifications, edit channel details and edit their profiles.'
               );
             }}
           >

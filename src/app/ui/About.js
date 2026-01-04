@@ -34,9 +34,11 @@ export default function About() {
                 During any time off I enjoy working on coding projects, playing video games and
                 crocheting. My resume can be viewed by downloading it here.{' '}
                 <span className='p-1'>
-                  <button className='bg-[#2D3252] border border-[#49517D] rounded-3xl p-2 transition delay-150 duration-300 ease-in-out hover:scale-110 hover:bg-[#49517D]'>
-                    <img src='/download.png' className='w-4 h-4' />
-                  </button>
+                  <a href='/resume.pdf' target='_blank'>
+                    <button className='bg-[#2D3252] border border-[#49517D] rounded-3xl p-2 transition delay-150 duration-300 ease-in-out hover:scale-110 hover:bg-[#49517D]'>
+                      <img src='/download.png' className='w-4 h-4' />
+                    </button>
+                  </a>
                 </span>
               </p>
             </div>
