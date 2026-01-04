@@ -93,10 +93,6 @@ body {
   font-style: normal;
 }
 
-/**
-taken from geeks for geeks
-**/
-
 .flip-card {
   background-color: transparent;
   width: 100px;
@@ -141,8 +137,6 @@ taken from geeks for geeks
   border-radius: 15px;
 }
 
-/* ... */
-
 .tab-animation {
   transform-origin: bottom;
   transform: scaleY(1);
@@ -182,10 +176,6 @@ taken from geeks for geeks
   color: #f3e0fa;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 5px 40px #f3e0fa;
 }
-
-/*
-CSS tricks used to make triangles
-*/
 
 .arrow-up {
   width: 0;
@@ -245,4 +235,17 @@ CSS tricks used to make triangles
   font-family: 'Neonderthaw', cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d233c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #433358;
+  border-radius: 10px;
 }
