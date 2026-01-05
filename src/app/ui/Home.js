@@ -121,7 +121,7 @@ export default function Home() {
           <div className='pl-70 max-4xl:pl-0 max-xs-10:pr-4 max-xs-11:pr-10'>
             <img
               className='mt-[-1px]'
-              src='./light.svg'
+              src='/light.svg'
               onClick={() => {
                 setTimer(0);
 
