@@ -11,11 +11,8 @@ export default function Home() {
   const [timerGoal, setTimerGoal] = useState(1000);
 
   useEffect(() => {
-    console.log(switchClicked);
-
     let intervalId = null;
 
-    console.log(timerGoal);
     if (timer <= timerGoal) {
       intervalId = setInterval(() => {
         setLightsActive((prev) => !prev);
@@ -124,16 +121,13 @@ export default function Home() {
           <div className='pl-70 max-4xl:pl-0 max-xs-10:pr-4 max-xs-11:pr-10'>
             <img
               className='mt-[-1px]'
-              src='/light.svg'
+              src='./light.svg'
               onClick={() => {
-                console.log('hello?');
                 setTimer(0);
 
                 if (!lightsActive) {
-                  console.log('on');
                   setTimerGoal(1200);
                 } else if (lightsActive) {
-                  console.log('off');
                   setTimerGoal(800);
                 }
 

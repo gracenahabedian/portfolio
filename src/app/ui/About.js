@@ -12,7 +12,6 @@ export default function About() {
         className='pr-[25.5%] pl-[25.5%] p-30 bg-[#221A2D] max-xl-1:pr-[23%] max-xl-1:pl-[23%] transition-all max-vl-1:pl-[16%] max-vl-1:pr-[16%] max-lg-1:pl-[10%] max-lg-1:pr-[10%]'
       >
         <div className='flex flex-row gap-5 justify-center items-center mb-10'>
-          {/* <img src='/google-docs-2.png' className='w-10 h-10' /> */}
           <h1 className='text-white text-[40px] amaranth-regular'>
             About <span className='text-[#6D5286]'>Me</span>
           </h1>
@@ -36,7 +35,7 @@ export default function About() {
                 <span className='p-1'>
                   <a href='/resume.pdf' target='_blank'>
                     <button className='bg-[#2D3252] border border-[#49517D] rounded-3xl p-2 transition delay-150 duration-300 ease-in-out hover:scale-110 hover:bg-[#49517D]'>
-                      <img src='/download.png' className='w-4 h-4' />
+                      <img src='./download.png' className='w-4 h-4' />
                     </button>
                   </a>
                 </span>
@@ -54,7 +53,7 @@ export default function About() {
           </div>
 
           <img
-            src='/Grace.jpeg'
+            src='./Grace.jpeg'
             className='rounded-xl shadow-xl object-cover w-80 h-80 max-xs-6:w-full max-xs-6:h-full'
           />
         </div>

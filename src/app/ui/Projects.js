@@ -9,7 +9,7 @@ export default function Projects() {
   const [background, setBackground] = useState('#2D233C');
 
   const [tags, setTags] = useState(['Next.js', 'HTML', 'CSS', 'JavaScript', 'Tailwind']);
-  const [image, setImage] = useState('/portfolio.png');
+  const [image, setImage] = useState('./portfolio.png');
   const [description, setDescription] = useState('This portfolio website.');
   const { windowSize, setWindowSize } = useContext(WindowContext);
 
@@ -28,7 +28,7 @@ export default function Projects() {
             onClick={() => {
               setBackground('#2D233C');
               setTags(['Next.js', 'HTML', 'CSS', 'JavaScript', 'Tailwind']);
-              setImage('/portfolio.png');
+              setImage('./portfolio.png');
               setDescription('This portfolio website.');
             }}
           >
@@ -47,7 +47,7 @@ export default function Projects() {
                 'Bootstrap',
                 'Material-UI',
               ]);
-              setImage('/AirBrB.png');
+              setImage('./AirBrB.png');
               setDescription(
                 'A multi user application which enables users to rent and list properties. Users are able to make reviews, filter properties and receive notifications specialised for guests + hosts.'
               );
@@ -60,7 +60,7 @@ export default function Projects() {
             onClick={() => {
               setBackground('#5E477C');
               setTags(['HTML', 'CSS', 'JavaScript', 'Bootstrap']);
-              setImage('/Slackr-2.png');
+              setImage('./Slackr-2.png');
               setDescription(
                 'A multi user messaging application where users can create and join different channels, delete, pin, edit or react to messages, receive notifications, edit channel details and edit their profiles.'
               );
@@ -73,7 +73,7 @@ export default function Projects() {
             onClick={() => {
               setBackground('#705594');
               setTags(['HTML', 'CSS', 'JavaScript']);
-              setImage('/WeatherProject.png');
+              setImage('./WeatherProject.png');
               setDescription(
                 'A website which enables users to search for a country and view the temperature (celsius or fahrenheit), 3 day forecast, wind, humidity, air quality, rain chance and the hourly forecast.'
               );

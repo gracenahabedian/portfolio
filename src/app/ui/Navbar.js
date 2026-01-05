@@ -19,7 +19,6 @@ export default function Navbar() {
     window.addEventListener('hashchange', () => {
       const newHash = window.location.hash;
       setHashLocation(window.location.hash);
-      console.log(newHash);
     });
   }, []);
 
@@ -36,7 +35,7 @@ export default function Navbar() {
                 setHamburgerActive(false);
               }}
             >
-              <img src='/close-2.png' className='w-8 h-8' />
+              <img src='./close-2.png' className='w-8 h-8' />
             </button>
           </div>
           <div className='flex flex-col text-white font-sans text-4xl text-center flex-1'>
@@ -107,7 +106,7 @@ export default function Navbar() {
             setHamburgerActive(true);
           }}
         >
-          <img src='/hamburger.png' className='w-8 h-8' />
+          <img src='./hamburger.png' className='w-8 h-8' />
         </button>
       )}
 

@@ -21,7 +21,7 @@ export default function Education() {
           <div className='transition delay-150 duration-300 ease-in-out hover:scale-104 max-sm:w-full bg-[#FEDB02] rounded-3xl flex justify-center max-sm:h-20'>
             <img
               className='object-cover w-20 h-70 rounded-3xl right-250 max-sm:w-100 max-sm:h-18'
-              src={windowSize <= 640 && windowSize != -1 ? 'UNSW-horizontal.png' : '/UNSW-2.png'}
+              src={windowSize <= 640 && windowSize != -1 ? './UNSW-horizontal.png' : './UNSW-2.png'}
             />
           </div>
           <div className='transition delay-150 duration-300 ease-in-out hover:scale-104 text-white border border-[#614583] rounded-3xl p-8 w-fit flex justify-center flex-col gap-8 drop-shadow-2xl max-sm:p-6 max-sm:w-full'>

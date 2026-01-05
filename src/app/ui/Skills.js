@@ -23,7 +23,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='C.png' className='rounded-xl' />
+                    <img src='./C.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>C</h1>
@@ -34,7 +34,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='Java.png' className='rounded-xl' />
+                    <img src='./Java.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Java</h1>
@@ -45,7 +45,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='Javascript.png' className='rounded-xl' />
+                    <img src='./Javascript.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Javascript</h1>
@@ -56,7 +56,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='HTML.png' className='rounded-xl' />
+                    <img src='./HTML.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>HTML</h1>
@@ -67,7 +67,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='CSS.png' className='rounded-xl' />
+                    <img src='./CSS.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>CSS</h1>
@@ -78,7 +78,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='SQL.png' className='rounded-xl' />
+                    <img src='./SQL.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>SQL</h1>
@@ -89,7 +89,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='R.png' className='rounded-xl' />
+                    <img src='./R.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>R</h1>
@@ -100,7 +100,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='Assembly.png' className='rounded-xl' />
+                    <img src='./Assembly.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Assembly</h1>
@@ -111,7 +111,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='Latex.png' className='rounded-xl' />
+                    <img src='./Latex.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Latex</h1>
@@ -122,7 +122,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='Markdown.png' className='rounded-xl' />
+                    <img src='./Markdown.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Markdown</h1>
@@ -140,7 +140,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='Next.png' className='rounded-xl' />
+                    <img src='./Next.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Next.js</h1>
@@ -151,7 +151,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='React.png' className='rounded-xl' />
+                    <img src='./React.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>React.js</h1>
@@ -162,7 +162,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='Tailwind.png' className='rounded-xl' />
+                    <img src='./Tailwind.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Tailwind</h1>
@@ -173,7 +173,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='Bootstrap.png' className='rounded-xl' />
+                    <img src='./Bootstrap.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Bootstrap</h1>
@@ -184,7 +184,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='MaterialUI.png' className='rounded-xl' />
+                    <img src='./MaterialUI.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Material-UI</h1>
@@ -195,7 +195,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='Git.png' className='rounded-xl' />
+                    <img src='./Git.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Git</h1>
@@ -206,7 +206,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='Cypress.png' className='rounded-xl' />
+                    <img src='./Cypress.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Cypress</h1>
@@ -217,7 +217,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='MomentJS.png' className='rounded-xl' />
+                    <img src='./MomentJS.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Moment.js</h1>
@@ -228,7 +228,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='JUnit.png' className='rounded-xl' />
+                    <img src='./JUnit.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>JUnit</h1>
@@ -244,7 +244,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='VisualStudio.png' className='rounded-xl' />
+                    <img src='./VisualStudio.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Visual Studio Code</h1>
@@ -255,7 +255,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='RStudio.png' className='rounded-xl' />
+                    <img src='./RStudio.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>R Studio</h1>
@@ -266,7 +266,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='SqlDeveloper.png' className='rounded-xl' />
+                    <img src='./SqlDeveloper.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>SQL Developer</h1>
@@ -277,7 +277,7 @@ export default function Skills() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='Postman.png' className='rounded-xl' />
+                    <img src='./Postman.png' className='rounded-xl' />
                   </div>
                   <div className='flip-card-back flex justify-center items-center flex-col'>
                     <h1 className='actor-regular font-semibold text-lg'>Postman</h1>
