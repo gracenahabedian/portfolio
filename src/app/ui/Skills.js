@@ -17,9 +17,9 @@ export default function Skills() {
         </div>
 
         <div className='flex flex-col gap-10 -z-100'>
-          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104 max-xs-4:p-6'>
+          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104 max-xs-17:p-6 max-xs-16:p-4'>
             <h1 className='text-white amaranth-regular text-3xl text-center mb-8'>Languages</h1>
-            <div className='flex flex-row flex-wrap gap-6 justify-center items-center'>
+            <div className='flex flex-row flex-wrap gap-6 justify-center items-center max-xs-16:gap-4'>
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
@@ -132,11 +132,11 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104 max-xs-4:p-6'>
+          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104 max-xs-17:p-6 max-xs-16:p-4'>
             <h1 className='text-white amaranth-regular text-3xl text-center mb-8'>
               Frameworks & Libraries
             </h1>
-            <div className='flex flex-row flex-wrap gap-6 justify-center items-center'>
+            <div className='flex flex-row flex-wrap gap-6 justify-center items-center max-xs-16:gap-4'>
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
@@ -238,9 +238,9 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104 max-xs-4:p-6'>
+          <div className='bg-[#2E233D] rounded-xl shadow-xl p-8 transition delay-150 duration-300 ease-in-out hover:scale-104 max-xs-17:p-6 max-xs-16:p-4'>
             <h1 className='text-white amaranth-regular text-3xl text-center mb-8'>Softwares</h1>
-            <div className='flex flex-row flex-wrap gap-6 justify-center items-center'>
+            <div className='flex flex-row flex-wrap gap-6 justify-center items-center max-xs-16:gap-4'>
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>

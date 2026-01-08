@@ -7,6 +7,11 @@
 
 @theme {
   /* CUSTOM */
+  --breakpoint-xs-18: 21.125rem; /* 338px */
+  --breakpoint-xs-17: 22.5rem; /* 360px */
+  --breakpoint-xs-16: 21.25rem; /* 340px */
+  --breakpoint-xs-15: 21.75rem; /* 348px */
+  --breakpoint-xs-14: 23.313rem; /* 373px */
   --breakpoint-xs-13: 23.063rem; /* 369px */
   --breakpoint-xs-12: 24.875rem; /* 398px */
   --breakpoint-xs-11: 28.5rem; /* 456px */

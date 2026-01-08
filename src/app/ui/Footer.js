@@ -16,7 +16,7 @@ export default function Footer() {
       }}
     >
       <p className='text-[#ffffffd1] actor-regular'>Copyright © Grace Nahabedian</p>
-      <p className='text-[#ffffffd1] actor-regular text-[14px]'>
+      <p className='text-[#ffffffd1] actor-regular text-[14px] max-xs-17:px-10 text-center'>
         Created using HTML, CSS, JavaScript and Next.js
       </p>
     </div>

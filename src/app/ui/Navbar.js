@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     <>
       {hamburgerActive && (
-        <div className='absolute z-10 w-full h-svh bg-[#2E233D] flex flex-col'>
+        <div className='absolute z-1000 w-full h-svh bg-[#2E233D] flex flex-col'>
           <div>
             <button
               className='w-8 h-8 mt-9.5 transition-all flex justify-center items-center ml-10 hover:cursor-pointer'
@@ -101,7 +101,7 @@ export default function Navbar() {
 
       {windowSize != -1 && windowSize <= 760 && (
         <button
-          className='backdrop-blur-md w-16 h-16 transition-all flex justify-center items-center ml-10 hover:cursor-pointer fixed top-9.5 bg-[#392d4952] rounded-full'
+          className='backdrop-blur-md w-16 h-16 transition-all flex justify-center items-center ml-10 hover:cursor-pointer fixed top-9.5 bg-[#392d4952] rounded-full z-100'
           onClick={() => {
             setHamburgerActive(true);
           }}

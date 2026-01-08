@@ -24,7 +24,7 @@ export default function Projects() {
         </div>{' '}
         <div className='flex flex-row text-white relative'>
           <div
-            className='bg-[#2D233C] w-40 h-10 rounded-tr-3xl rounded-tl-3xl z-10 flex justify-center items-center actor-regular tab-animation max-md-1:w-34 max-md-1:text-[14px] max-sm-1:w-30 max-sm-1:text-[12px] max-sm-2:w-28 max-sm-2:text-[10px] max-sm-3:w-20 max-xs-2:w-16'
+            className='bg-[#2D233C] w-40 h-10 rounded-tr-3xl rounded-tl-3xl z-10 flex justify-center items-center actor-regular tab-animation max-md-1:w-34 max-md-1:text-[14px] max-sm-1:w-30 max-sm-1:text-[12px] max-sm-2:w-28 max-sm-2:text-[10px] max-sm-3:w-20 max-xs-2:w-16 max-xs-15:w-14.5'
             onClick={() => {
               setBackground('#2D233C');
               setTags(['Next.js', 'HTML', 'CSS', 'JavaScript', 'Tailwind']);
@@ -35,7 +35,7 @@ export default function Projects() {
             <p>{windowSize <= 585 && windowSize != -1 ? 'Portfolio' : 'Portfolio Website'}</p>
           </div>
           <div
-            className='bg-[#46365D] w-40 h-10 rounded-tr-3xl rounded-tl-3xl z-10 flex justify-center items-center actor-regular tab-animation max-md-1:w-34 max-md-1:text-[14px] max-sm-1:w-30 max-sm-1:text-[12px] max-sm-2:w-28 max-sm-2:text-[10px] max-sm-3:w-20 max-xs-2:w-16'
+            className='bg-[#46365D] w-40 h-10 rounded-tr-3xl rounded-tl-3xl z-10 flex justify-center items-center actor-regular tab-animation max-md-1:w-34 max-md-1:text-[14px] max-sm-1:w-30 max-sm-1:text-[12px] max-sm-2:w-28 max-sm-2:text-[10px] max-sm-3:w-20 max-xs-2:w-16 max-xs-15:w-14.5'
             onClick={() => {
               setBackground('#46365D');
               setTags([
@@ -56,7 +56,7 @@ export default function Projects() {
             <p>AirBrB</p>
           </div>
           <div
-            className='bg-[#5E477C] w-40 h-10 rounded-tr-3xl rounded-tl-3xl z-10 flex justify-center items-center actor-regular tab-animation max-md-1:w-34 max-md-1:text-[14px] max-sm-1:w-30 max-sm-1:text-[12px] max-sm-2:w-28 max-sm-2:text-[10px] max-sm-3:w-20 max-xs-2:w-16'
+            className='bg-[#5E477C] w-40 h-10 rounded-tr-3xl rounded-tl-3xl z-10 flex justify-center items-center actor-regular tab-animation max-md-1:w-34 max-md-1:text-[14px] max-sm-1:w-30 max-sm-1:text-[12px] max-sm-2:w-28 max-sm-2:text-[10px] max-sm-3:w-20 max-xs-2:w-16 max-xs-15:w-14.5'
             onClick={() => {
               setBackground('#5E477C');
               setTags(['HTML', 'CSS', 'JavaScript', 'Bootstrap']);
@@ -69,7 +69,7 @@ export default function Projects() {
             <p>Slackr</p>
           </div>
           <div
-            className='bg-[#705594] w-40 h-10 rounded-tr-3xl rounded-tl-3xl z-10 flex justify-center items-center actor-regular tab-animation max-md-1:w-34 max-md-1:text-[14px] max-sm-1:w-30 max-sm-1:text-[12px] max-sm-2:w-28 max-sm-2:text-[10px] max-sm-3:w-20 max-xs-2:w-16'
+            className='bg-[#705594] w-40 h-10 rounded-tr-3xl rounded-tl-3xl z-10 flex justify-center items-center actor-regular tab-animation max-md-1:w-34 max-md-1:text-[14px] max-sm-1:w-30 max-sm-1:text-[12px] max-sm-2:w-28 max-sm-2:text-[10px] max-sm-3:w-20 max-xs-2:w-16 max-xs-15:w-14.5'
             onClick={() => {
               setBackground('#705594');
               setTags(['HTML', 'CSS', 'JavaScript']);
@@ -101,7 +101,7 @@ export default function Projects() {
               {description}
             </p>
             <img
-              className='rounded-2xl w-300 h-100 object-cover max-md-2:h-80 max-sm-4:h-70 max-sm-5:h-60 max-xs-3:h-50'
+              className='rounded-2xl w-300 h-100 object-cover max-md-2:h-80 max-sm-4:h-70 max-sm-5:h-60 max-xs-3:h-50 max-xs-16:h-30'
               src={image}
             />
           </div>
